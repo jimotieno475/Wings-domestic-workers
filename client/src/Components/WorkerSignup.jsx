@@ -16,7 +16,7 @@ export default function WorkerSignup() {
           </div>
         </div>
         <div className="flex justify-center self-center z-10">
-          <div className="p-12 bg-white mx-auto rounded-3xl w-96">
+          <div className="p-12 bg-glass mx-auto rounded-3xl w-100">
             <div className="mb-7">
               <h3 className="font-semibold text-2xl text-gray-800">Sign Up </h3>
             </div>
@@ -40,7 +40,7 @@ export default function WorkerSignup() {
               </div>
               <div className="flex items-center justify-between">
                 <div className="text-sm ml-auto">
-                  <button href="#" className="text-purple-700 hover:text-purple-600">Forgot your password?</button>
+                  <button href="#" className="text-white hover:text-purple-600">Forgot your password?</button>
                 </div>
               </div>
               <div>
@@ -48,10 +48,10 @@ export default function WorkerSignup() {
                   Sign up
                 </button>
               </div>
-              <p className="text-gray-400">You have an account? <button onClick={() => navigate('/workerlogin')} className="text-sm text-blue-700 hover:text-blue-700">Sign In</button></p>
+              <p className="text-white">You have an account? <button onClick={() => navigate('/workerlogin')} className="text-sm text-blue-300 hover:text-blue-700">Sign In</button></p>
               <div className="flex items-center justify-center space-x-2 my-5">
                 <span className="h-px w-16 bg-gray-100"></span>
-                <p className="text-sm text-gray-400 font-normal">Or continue with</p>
+                <p className="text-sm text-gray-900 font-normal">Or continue with</p>
                 <span className="h-px w-16 bg-gray-100"></span>
               </div>
               <div className="flex justify-center">
@@ -66,7 +66,7 @@ export default function WorkerSignup() {
                   </span>
                 </button>
               </div>
-              <p className="text-sm text-center text-gray-400">By signing in you agree to our <a href="#" className="text-purple-700 hover:text-purple-700">terms and conditions</a></p>
+              <p className="text-sm text-center text-gray-1000">By signing in you agree to our <a href="#" className="text-purple-700 hover:text-purple-700">terms and conditions</a></p>
             </div>
           </div>
         </div>

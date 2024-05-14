@@ -14,10 +14,10 @@ Description: This Template is created for web template
   font-family: 'mouse-500';
   src: url("../fonts/Montserrat-Bold.ttf") format("truetype"); }
 /* ===================================== Basic CSS ================================== */
-/* * {
+* {
   margin: 0px;
   padding: 0px;
-  list-style: none; } */
+  list-style: none; }
 
 img {
   max-width: 100%; }
@@ -208,6 +208,9 @@ body {
 /* ===================================== Header CSS ================================== */
 body {
   overflow-x: hidden; 
+  /* width: 120vw;  */
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
   position:relative;
     margin: 0px;

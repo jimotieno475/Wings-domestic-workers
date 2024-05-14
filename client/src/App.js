@@ -12,7 +12,8 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import WorkerLogin from './Components/WorkerLogin';
 import WorkerSignup from './Components/WorkerSignup';
-
+import Employer from './Components/Employer';
+import Cooks from './Components/Services/Cooks';
 
 
 function App (){
@@ -24,7 +25,9 @@ function App (){
         <Route path="/singup" element={<Signup/>} />
         <Route path="/workerlogin" element={<WorkerLogin/>} />
         <Route path="/workersignup" element={<WorkerSignup/>} />
+        <Route path="/employerdash" element={<Employer/>} />
         <Route path="/" element={<Home/>} />
+        <Route path="/cooks" element={<Cooks/>} />
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/aboutus" element={<AboutUs/>} />
